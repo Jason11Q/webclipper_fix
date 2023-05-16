@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icon.png"
+      }
+   },
+   "commands": {
+      "toggle-feature-foo": {
+         "description": "Test",
+         "suggested_key": {
+            "default": "Alt+S"
+         }
+      }
+   },
+   "description": "Universal open source web clipper.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm+1B6nls+BMArudsX4Tp/kt+7tY7DNj51WVtwE8ijzDYY0hPmxPdvUB2TDSivuMI67bMQ1OddkXV2fxz109y+qui70EZBRkvXC2lBwsJ6bKilQPSdOn6ZdlSLSml5dYwmOXdFck/k1trYC9TsqMve5xeI4jPGZM6Hid/raoqvWZLZOheP/9jfvJinT/DrnpZf1tgdWcJ9MSiXT4C8VYFfnXM4QcyzL+sLTv9v74jxAwRE4wqSRoEp8quxgFYpUnpz6rM3FJoMF0euVVGuP/bNYegA83gXzWd7u/lbo/lGHsuoELKDckm39jseszLIUIOQnGpuTWjsI9NLw+Y6oeGxwIDAQAB",
+   "manifest_version": 2,
+   "name": "Web Clipper",
+   "optional_permissions": [ "cookies", "\u003Call_urls>", "webRequest", "webRequestBlocking" ],
+   "permissions": [ "activeTab", "storage", "https://api.clipper.website/*", "https://resource.clipper.website/*", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.33.0",
+   "web_accessible_resources": [ "tool.html" ]
+}
